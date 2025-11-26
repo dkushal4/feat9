@@ -1,0 +1,19 @@
+inputSet:
+  name: feat9
+  identifier: feat9
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: feat9
+    stages:
+      - stage:
+          identifier: jkkj
+          type: Custom
+          spec:
+            execution:
+              steps:
+                - step:
+                    identifier: Wait_1
+                    type: Wait
+                    spec:
+                      duration: 10s
